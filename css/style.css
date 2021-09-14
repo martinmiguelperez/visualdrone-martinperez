@@ -14,13 +14,13 @@ body {
   font-style: oblique;
   padding-top: 70px;
   padding-bottom: 20px;
-  font-size: 4.5rem;
+  font-size: 3.5rem;
   color: rgba(192, 63, 12, 0.925);
   text-align: center;
   font-family: "Roboto", sans-serif; }
 
 .title-h2 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-style: oblique;
   padding-top: 30px;
   padding-bottom: 20px;
@@ -166,13 +166,13 @@ footer {
     border: none;
     width: 100%;
     border: 1px solid #ee8700;
-    font-size: 14px;
+    font-size: 0.875rem;
     padding: 10px; }
   footer .buttonFooter {
     border: none;
     color: #010504;
     padding: 10px 40px;
-    font-size: 24px;
+    font-size: 1.5rem;
     margin-top: 10px;
     cursor: pointer;
     font-family: arial;
@@ -200,7 +200,7 @@ footer {
       line-height: 15px;
       color: #d6d6d6;
       text-align: center;
-      font-size: 25px; }
+      font-size: 1.563rem; }
       footer .cardCopy a:hover {
         color: #9b9b8f; }
 
@@ -678,13 +678,17 @@ ul {
     transition-duration: 0s; } }
 
 @media screen and (max-width: 640px) {
+  h1 {
+    font-size: 2rem; }
   h3 {
-    font-size: 3rem; }
+    font-size: 2.5rem; }
   p {
     font-size: 1.3rem; } }
 
 @media screen and (max-width: 750px) {
+  h1 {
+    font-size: 2.7rem; }
   h3 {
-    font-size: 2.15rem; }
+    font-size: 2rem; }
   p {
     font-size: 1.1rem; } }
